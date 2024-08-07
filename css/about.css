@@ -1,0 +1,54 @@
+/* about.css */
+
+/* Add styles for about page */
+#aboutus {
+    text-align: justify;
+}
+
+/* Center the headings */
+#aboutus h2,
+#aboutus h3 {
+    text-align: center;
+}
+
+#aboutus ol {
+    text-align: center; /* Center the ordered list */
+    margin: 0 auto; /* Center the list horizontally */
+    max-width: 600px; /* Adjust the maximum width as needed */
+}
+
+#aboutus ol li {
+    margin-bottom: 10px;
+}
+
+#aboutus p strong {
+    font-weight: bold;
+}
+
+/* Add media query for responsive design */
+@media screen and (max-width: 768px) {
+    /* Add styles for smaller screens */
+    #aboutus {
+        padding: 10px;
+    }
+
+    #aboutus h3 {
+        font-size: 18px;
+    }
+
+    #aboutus p {
+        font-size: 14px;
+    }
+
+    #aboutus ol {
+        font-size: 14px;
+        max-width: 80%; /* Adjust the maximum width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Add styles for even smaller screens */
+    #aboutus h2 {
+        font-size: 20px;
+    }
+}

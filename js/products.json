@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Single Deep Fryer",
+        "price": 99.99,
+        "image": "img/deep_fryer.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dual Deep Fryer",
+        "price": 149.99,
+        "image": "img/dual_fryer.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Triple Basket Deep Fryer",
+        "price": 200.99,
+        "image": "img/triple_fryer.jpg"
+    }
+]

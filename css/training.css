@@ -1,0 +1,58 @@
+/* training.css */
+
+/* Default styles */
+#training-schedule {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px; /* Add margin to create space between the table and other content */
+}
+
+#training-schedule caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+#training-schedule th,
+#training-schedule td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#training-schedule th {
+    background-color: #f2f2f2;
+}
+
+#training-schedule tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#training-schedule tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #training-schedule {
+        font-size: 14px; /* Reduce font size for smaller screens */
+    }
+
+    #training-schedule th,
+    #training-schedule td {
+        padding: 6px; /* Adjust padding for smaller screens */
+    }
+
+    #training-schedule caption {
+        font-size: 1em; /* Reduce caption font size for smaller screens */
+    }
+}
+
+.training{
+    text-align: center;
+}
+
+.desc{
+    text-align: center;
+}
